@@ -12,4 +12,8 @@
 
 -- write your sql code here
 
-SELECT * from countries;
+Select Continent, sum(AreaSqMi), sum(ArablePercent), avg(Birthrate) from countries
+Where Population > 10000000
+Group by Continent;
+
+

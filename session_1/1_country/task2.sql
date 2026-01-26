@@ -12,3 +12,6 @@
 
 -- write your sql code here
 
+Select Country from countries
+Order by Country Desc
+Limit 10;
